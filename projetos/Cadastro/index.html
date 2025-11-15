@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <!-- <h1>BASMATCH</h1>
+         <nav>
+            <a href="#">HOME</a>
+            <a href="#">SOBRE A GENTE</a>
+            <a href="#">FALE CONOSCO</a>
+            <a href="#">TRABALHE CONOSCO</a>
+         </nav> -->
+
+        <div id="mainconteiner">
+            <h1>CADASTRE-SE ABAIXO</h1>
+            <form id="registro">
+                <div class="half-box spacing">
+                    <label for="name">Nome</label>
+                    <input type="text" name="name" id="name" placeholder="Digite seu Nome">
+                </div>
+                <div class="half-box">
+                    <label for="lastname">Sobrenome</label>
+                    <input type="text" name="lastename" id="lastname" placeholder="Digite seu Sobrenome">
+                </div>
+                <div class="full-box">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Digite seu Email">
+                </div>
+                <div class="half-box">
+                    <label for="number">Numero</label>
+                    <input type="number" name="number" id="number" placeholder="Digite seu Celular">
+                </div>
+                <div class="half-box">
+                    <label for="cpf">Cpf/Cnpj</label>
+                    <input type="text" name="cpf" id="cpf" placeholder="Digite seu Cpf/Cnpj">
+                </div>
+                <div class="half-box-agreement">
+                    <label for="agreement" id="agreement-label"> <span id="span">Li e concordo com os<a href="#">Termos de Servico</a></span>
+                    <input type="checkbox" name="agreement" id="agreement">
+              </div>
+                <div class="half-box">
+                    <input type="submit" id="btn-submit" value="Registre-se">
+                </div>
+            </form>
+        </div>
+        <div class="footerconteiner">
+            <div class="rodape">
+                <footer>
+                    <p>Site criado e desenvolvido por <a href="https://github.com/Vanttine" target="_blank" rel="next">Luiz Vantine</a></p>
+                </footer>
+            </div>
+        </div>
+        <p class="Error-validation template"></p>
+</body>
+</html>

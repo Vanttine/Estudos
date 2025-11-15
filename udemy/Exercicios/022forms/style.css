@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 1.5em;
+    padding: 5px;
+    margin: 5px;
+}
+
+.contact {
+    padding: 10px;
+    margin: 10px;
+    font-weight: 700;
+}
+
+form {
+    padding: 7px;
+    margin: 7px;
+    flex-wrap: wrap;
+    flex: 1 1 50%;
+}
+
+.input {
+   
+    display: flex;
+   
+    cursor: pointer;
+
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 3px;
+    border-bottom-style: groove ;
+
+    margin-bottom: 15px;
+
+    border-color: rgba(138, 145, 145, 0.938);
+
+}
+
+.input:hover {
+    border-color: rgb(61, 24, 136);
+}
+
+.input:focus {
+    border-color: rgb(79, 34, 168);
+}
+
+label {
+    font-weight: 700;
+    font-size: .8rem;
+}
+
+.coments {
+    padding-top: 5px;
+    margin-top: 15px;
+
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+
+}
+
+#text {
+    display: flex;
+    width: 20em;
+    height: 10em;
+}
+
+h2 {
+    font-size: 1em;
+}
+
+.s, .n {
+    display: flex;
+    padding: 5px;
+    margin: 3px;
+
+}

@@ -1,0 +1,91 @@
+@charset "UTF-8";
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.calculadora {
+    width: 400px;
+    height: 400px;
+    margin: auto;  
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+    font-size: 20pt;
+    text-align: center;
+}
+.body {
+    padding-top: 10px;
+    
+}
+.inputs {
+    display: flex;
+    gap: 23px;
+    justify-content: center;
+}
+
+input.number {
+   
+    width: 130px;
+    height: 30px;
+    margin-bottom: 15px;
+    outline: none;
+    border-width: 0px 0px 1px 0px;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
+
+input#submit {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-left-width: 1px;
+}
+#botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+select {
+    width: 50px;
+    height: 25px;
+    margin-top: 5px;
+    outline: none;
+    border-radius: 7px;
+    
+}
+
+/* select:hover {
+    border-radius: 60px;
+    border-style: dotted;
+} */
+
+select > option {
+    text-align: center;
+}
+
+
+div#res {
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    margin: auto;
+    margin-top: 5px;
+    
+    text-align: center;
+    line-height: 90px;
+    font-size: 20pt;
+}

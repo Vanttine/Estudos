@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    border: none;
+    color: #323232;
+}
+
+input, label {
+    display: block;
+    width: 100%;
+}
+
+input:focus, label:focus {
+    outline: none;
+}
+
+body {
+   padding-top: 5vh;
+
+    background-image: url(imagens/pordosol.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+    /* min-height: 540px;
+    max-height: 1290px; */
+    
+}
+
+#mainconteiner {
+    background-color: white;
+
+    max-width: 600px;
+    max-height: 1020px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#mainconteiner h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.6rem;
+}
+
+a {
+    color: blueviolet;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.full-box {
+    flex: 1 1 85%;
+    position: relative;
+}
+
+.half-box {
+    flex: 1 1 50%;
+    padding: 0px 10px 10px 5px;
+}
+
+label {
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+input {
+    border-bottom: 2px;
+    border-color: #323232;
+    padding: 10px;
+    font-size: .9rem;
+    margin-bottom: 30px;
+    border-bottom-style: groove;
+}
+
+input:focus {
+    border-color: rgb(153, 50, 204);
+}
+
+input[type="submit"] {
+    background-color: rgb(43, 80, 226);
+    border-radius: 15px;
+    border: none;
+
+    color: rgb(255, 255, 255);
+
+    margin: auto;
+    height: 40px;
+    width: 80%;
+
+    cursor: pointer;
+}
+
+input:hover {
+    border-color: rgb(153, 50, 204);
+}
+
+#agreement {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+span#span {
+    font-size: 11px;
+}
+
+.footerconteiner {
+    margin: auto;
+    max-width: 600px;
+    background-color: rgba(0, 0, 0, 0.701);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.rodape {
+    width: 350px;
+    height: 25px;
+
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+    margin: auto;
+
+}
+
+footer > p {
+  padding: 5px 5px 0px 5px;
+  width: 315px;
+  font-size: 0.8rem;
+  text-align: center;
+  color: white;
+}
+
+footer > p > a {
+    text-decoration: underline;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgba(137, 43, 226, 0.755);
+}
+

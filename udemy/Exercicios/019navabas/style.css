@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.nav-bar {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 720px;
+}
+
+ul li {
+    float: left;
+    background-image: url(imagens/aba-direita.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+li a {
+    display: block;
+    padding: 0 2em;
+    line-height: 3em;
+    text-decoration: none;
+    background-image: url(imagens/aba-esquerda.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    color: #fff;
+
+}
+
+ul a:hover {
+    color: #894a1f;
+}
+
+ul a: {
+    background-image: url(imagens/aba-direita-atual.png);
+}
+

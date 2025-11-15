@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+h1 {
+    padding: 10px;
+}
+
+#conteudo {
+    background: #dcdcdc;
+    height: 600px;
+    display: flex;
+
+    /* row!row-reverse!column!column-reverse */
+    /* flex-direction: row ; */
+
+
+    /* nowrap!wrap!wrap-reverse */
+    /* flex-wrap: nowrap; */
+
+    /* flex-start! flexend! center! space-between! space-around */
+    /* justify-content: space-around; */
+
+    /* stretch! center! flex-start! flex-end! baseline */
+    /* align-items: stretch; */
+}
+
+.item {
+    /* width: 200px; */
+    height: 100px;
+    margin: 10px;
+    background: white;
+    border: 1px solid gray;
+    
+    /* define a proporcao de espaco ocupado de um item */
+    flex-grow: 0;
+
+    /* define a capacidade de reducao de um item */
+    flex-shrink: 1;
+
+    /* Indica o tamanho base do flex antes da distribuicao */
+    flex-basis: 200px;
+}
+
+.item1 {
+    /* flex-grow: 1; */
+    /* flex-shrink: 1; */
+}
+.item2 {
+    /* flex-grow: 2; */
+    /* flex-shrink: 2; */
+}
+.item3 {
+    /* flex-grow: 2; */
+    /* flex-shrink: 5; */
+}
+
+/* .order1 {
+    order: 1;
+}
+
+.order2 {
+    order: 2;
+}
+
+.order3 {
+    order: 3;
+}
+
+.order4 {
+    order: 4;
+} */

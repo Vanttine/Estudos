@@ -1,0 +1,318 @@
+@charset "UTF-8";
+
+/* 
+#b10333
+#eee
+#294c71
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000000de;
+}
+
+li {
+    list-style: none;
+}
+
+.header {
+    margin: auto;
+    width: 1250px;
+    height: 140px;
+    background: url(imagens/hyullex-logo.png) #37618e;
+}
+
+
+#logo {
+    width: 200px;
+    position: absolute;
+    z-index: 3;
+    bottom: 495px;
+    left: 75px;
+}
+
+.header h1 {
+    font-size: 1.8em;
+    color: #eee;
+    display: inline;
+    margin: 40px 0px 40px 40px;
+    line-height: 88px;
+    position: absolute;
+    z-index: 1;
+    right: 3999px;
+}
+
+.header ul {
+    margin-right: 5px;
+    padding: 50px 25px 10px 15px;
+}
+
+.header li {
+    background-color: #b10333;
+    padding: 13px 20px;
+}
+
+#border-start {
+    border-radius: 8px 0px 0px 8px;
+}
+
+#border-end {
+    border-radius: 0px 8px 8px 0px;
+}
+
+.nav-bar {
+    display: flex;
+    float: right;
+}
+
+.nav-list {
+    font-size: 1em;
+}
+
+.nav-link {
+    color: #eee;
+    padding: 10px;
+}
+
+.nav-list:hover {
+    background-color: #96042d;
+    color: #eee;
+}
+
+
+.conteiner {
+    width: 1080px;
+    margin: 10px auto;
+    background-color: #eee;
+}
+
+.main {
+    width: 550px;
+    height: 500px;
+    background-color: #bababaa4;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.table {
+    width: 500px;
+    border-collapse: collapse;
+    margin: 10px auto 0px;  
+    color: #eee;
+
+}
+
+th:hover {
+    cursor: pointer;
+}
+
+#table1 th {
+    background-color:#96042d ;
+}
+
+#table3 th {
+    background-color:#96042d ;
+}
+
+th {
+    background-color: #37618e;
+    border-style: none;
+    padding-top: 5px;
+    font-size: .8em;
+    font-style: italic;
+ 
+}
+
+.br-l {
+    border-radius: 5px 0px 0px 0px;
+}
+
+.br-r {
+    border-radius: 0px 5px 0px 0px;
+}
+
+td {
+    margin: auto;
+    padding: 0px 1px 0px 0px;
+    width: 171px;
+}
+
+.tabela h4 {
+    z-index: 2;
+    position: absolute;
+    margin: 86px 8px 6px 86px;
+    font-size: 0.85em;
+    text-shadow: 1px 1px 2px #00000088, 1px 1px 2px #000000a8;
+    cursor: pointer;
+    color: #eee;
+}
+
+
+.table h4:hover {
+    transition: cubic-bezier(0, 0.83, 0.61, 0.93) 0.5s;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+.table img:hover {
+    transition: cubic-bezier(0, 0.83, 0.61, 0.93) 0.5s;
+    opacity: 0.9;
+    cursor: pointer;
+    width: 162px;
+    height: 108px;
+}
+
+
+.tabela img {
+    z-index: 1;
+    position: absolute;
+}
+
+.imgmiddle {
+    margin-left: 2.6px;
+}
+
+.imgright {
+    margin-left: 5px;
+}
+
+th {
+    width: 150px;
+    padding-bottom: 5px;
+}
+
+.table img {
+    width: 161.5px;
+
+}
+
+#table2 {
+    margin-top: 115px;
+}
+
+#table3 {
+    margin-top: 115px;
+}
+
+.h3bottom {
+    padding-top: 124px;
+    border-radius: 5 px 5px 5px 5px;
+}
+
+h3 a {
+    color: #eee;
+    text-decoration: underline;
+}
+
+.main-lateral {
+    float: right;
+    background-color: #b6b6b6e6;
+}
+
+.feed-lateral {
+    float: left;
+    width: 180px;
+}
+
+h2, h3 {
+    padding: 5px;
+    font-size: 1.1em;
+    text-align: center;
+    background-color: #37618e;
+    border-radius: 5px 5px 0px 0px;
+    color: #eee;
+}
+
+.names {
+    width: 120px;
+    margin: auto;
+}
+
+.feed-lateral ul {
+    background-color: #bababaa4;
+    border-radius: 0px 0px 5px 5px;
+    text-align: left;
+}
+
+.funcionarios li {
+    padding: 8px 5px;
+}
+
+.funcionarios a:hover {
+    padding-left: 6px;
+    color: #424141c8;
+}
+
+.promocional {
+    background-color: #bababaa4;
+    border-radius: 0px 0px 5px 5px;
+    padding-bottom: 5px;
+}
+
+.promocional h3 {
+    margin-top: 25px;
+}
+
+.feed-lateral p {
+    text-align: center;
+    font-size: 15px;
+    padding: 8px 5px;
+}
+
+.input {
+    padding-top: 5px;
+    margin: 5px;
+    border: 0px;
+    background: none;
+    border-bottom: 2.1px solid #424141c8;
+    border-radius: 0px 0px 8px 8px;
+    padding: 7px;
+    outline: 0;
+}
+
+.input:hover {
+    border-bottom: 2.1px solid #4d81ba;
+}
+
+.input:focus {
+    border-bottom: 2.1px solid #4d81ba;
+}
+
+#cadastrar {
+    font-size: 14px;
+    padding: 7px;
+    margin: auto;
+    width: 120px;
+    background: #f10044;
+    color: #eee;
+    border-style: none;
+}
+
+#cadastrar:hover {
+    cursor: pointer;
+}
+
+.footer a {
+    color: #eee;
+    text-decoration: underline;
+}
+
+.footer {
+    clear: both;
+    width: 550px;
+    margin: auto;
+    padding: 3px;
+    font-size: 14px;
+    text-align: center;
+    color: #eee;
+    background-color: #000000;
+    border-radius: 0px 0px 5px 5px;
+}
+

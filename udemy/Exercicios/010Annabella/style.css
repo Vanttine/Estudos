@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #d2d2c1;
+    background-image: url(imagens/fundo.png);
+    background-repeat: no-repeat;
+}
+
+.img {
+    display: block;
+    max-width: 840px;
+}
+
+.nav-bar {
+    display: flex;
+    padding: 0 30px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #c5c5b2;
+    max-width: 843px;
+}
+
+.nav-menu {
+    display: flex;
+    text-align: center;
+    gap: 40px;
+    padding: 20px;
+}
+
+.nav-item {
+    list-style-type: none;
+}
+
+.nav-link {
+    font-weight: 700;
+    text-decoration: none;
+    color: #4b566a;
+    padding: 3px;
+}
+
+.article {
+    display: block;
+    background-color: #e8e8d9;
+    width: 843px;
+    padding: 15px;
+}
+
+h1 {
+    font-size: 20px;
+    padding: 7px;
+    color: #828271;
+}
+
+.loremAbout {
+    padding: 10px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+footer {
+    width: 843px;
+    padding: 10px;
+}
+
+footer > p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    align-items: center;
+}
+
+/* PUBLICIDADES */
+
+.publiimg {
+    width: 600px;
+    border: 7px solid #c5c5b2;
+    margin: 4px;
+}
+
+#ppubli {
+    padding: 5px;
+}
+
+.contact {
+    padding: 3px;
+    font-weight: 600;
+    font-size: 15px;
+}
