@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Flexiveis</title>
+</head>
+<body>
+    <h1>Desafio de imagens</h1>
+    <picture>
+         <!--No maximo 550px eu carrego "Arraiais-250"-->
+        <source media="(max-width: 550px)" srcset="imagens/arraias-250.jpg" type="image/jpg" alt="arraias250px">
+        <source media="(max-width: 800px)" srcset="imagens/arraias-500.jpg" type="image/jpg" alt="arraias500px">
+        <source media="(max-width: 1050px)" srcset="imagens/arraias-750.jpg" type="image/jpg" alto="arraias750px">
+        <img src="imagens/arraias-1000.jpg" alt="arraias1000px">
+    </picture>
+</body>
+</html>
