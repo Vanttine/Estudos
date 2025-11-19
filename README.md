@@ -2,4 +2,4 @@ Landing Page: <a href="https://vanttine.github.io/Estudos/projetos/Cadastro">Cad
 
 Landing Page: <a href="https://vanttine.github.io/Estudos/projetos/InsPagran">Login - Rede Social</a>
 
-C <a href="https://vanttine.github.io/Estudos/projetos/Calculadora">Calculadora</a>
+C: <a href="https://vanttine.github.io/Estudos/projetos/Calculadora">Calculadora</a>
