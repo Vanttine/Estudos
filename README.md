@@ -1,4 +1,4 @@
-Projeto em bootstrap<a href="https://vanttine.github.io/Estudos/bootstrap">Nutri</a>
+Projeto com bootstrap: <a href="https://vanttine.github.io/Estudos/bootstrap">Nutri</a>
 
 Landing Page: <a href="https://vanttine.github.io/Estudos/projetos/Cadastro">Cadastro</a>
 
